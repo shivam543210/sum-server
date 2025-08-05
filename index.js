@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
     res.send('Hello World!') //This is the response that will be sent to the client
 })
 
-app.listen(port, () => {
+app.listen(port,'0.0.0.0', () => {
     console.log(`Example app listening on port ${port}`) //This is the message that will be displayed in the console when the server is running
 })
